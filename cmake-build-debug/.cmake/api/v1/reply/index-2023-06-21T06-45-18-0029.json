@@ -1,0 +1,108 @@
+{
+	"cmake" : 
+	{
+		"generator" : 
+		{
+			"multiConfig" : false,
+			"name" : "Ninja"
+		},
+		"paths" : 
+		{
+			"cmake" : "/Users/fox/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/CLion.app/Contents/bin/cmake/mac/bin/cmake",
+			"cpack" : "/Users/fox/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/CLion.app/Contents/bin/cmake/mac/bin/cpack",
+			"ctest" : "/Users/fox/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/CLion.app/Contents/bin/cmake/mac/bin/ctest",
+			"root" : "/Users/fox/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25"
+		},
+		"version" : 
+		{
+			"isDirty" : false,
+			"major" : 3,
+			"minor" : 25,
+			"patch" : 2,
+			"string" : "3.25.2",
+			"suffix" : ""
+		}
+	},
+	"objects" : 
+	[
+		{
+			"jsonFile" : "codemodel-v2-2f0346cb2b68763f49f3.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 4
+			}
+		},
+		{
+			"jsonFile" : "cache-v2-b78a01fc2a9baa1df8c8.json",
+			"kind" : "cache",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		},
+		{
+			"jsonFile" : "cmakeFiles-v1-380c6999744f1cd8a5d9.json",
+			"kind" : "cmakeFiles",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		},
+		{
+			"jsonFile" : "toolchains-v1-5ca06af607b896ce7535.json",
+			"kind" : "toolchains",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		}
+	],
+	"reply" : 
+	{
+		"cache-v2" : 
+		{
+			"jsonFile" : "cache-v2-b78a01fc2a9baa1df8c8.json",
+			"kind" : "cache",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		},
+		"cmakeFiles-v1" : 
+		{
+			"jsonFile" : "cmakeFiles-v1-380c6999744f1cd8a5d9.json",
+			"kind" : "cmakeFiles",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		},
+		"codemodel-v2" : 
+		{
+			"jsonFile" : "codemodel-v2-2f0346cb2b68763f49f3.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 4
+			}
+		},
+		"toolchains-v1" : 
+		{
+			"jsonFile" : "toolchains-v1-5ca06af607b896ce7535.json",
+			"kind" : "toolchains",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		}
+	}
+}
