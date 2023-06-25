@@ -13,6 +13,11 @@ int main() {
 
     //数组指针
     int array[] = {1, 2, 3, 4};
+    //数组指针 = 数组首地址 = 数组声明
+    printf("arr = %p\n",array);
+    printf("&arr = %p\n",&array);
+    printf("&arr[0] = %p\n",&array[0]);
+
     printf("=====数组方式=====\n");
     for (int i = 0; i < sizeof(array) / sizeof(array[0]); ++i) {
         printf("arr[%d]的数据是%d\n", i, array[i]);
