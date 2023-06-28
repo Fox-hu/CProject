@@ -28,5 +28,22 @@ int main() {
         printf("arr[%d]的数据是%d\n", i, *array_p++);
     }
 
+    printf("区分 array和 &array\n");
+    //这里可以看到 array和array之间差4
+    printf("%p,%p,%p,%p\n",array,array+1,&array,&array+1);
+
+    //字符串
+    //1 字符串数组 能够更改字符串内容
+    char str[] = {'F','o','x','\0'};
+    printf("第一种更改前:%s\n",str); //字符串结尾以 '\0'
+    //修改内容
+    str[1] = 'O';
+    printf("第一种更改后:%s\n",str); //字符串结尾以 '\0'
+
+    //2 此时指向的是常量 无法更改
+    char* str1 = "Fox";
+    printf("第二种:%s\n",str1);
+    //str1[2] = 'O'; 报错
+
     return 0;
 }
