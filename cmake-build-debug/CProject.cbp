@@ -76,6 +76,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/fox/CLionProjects/CProject/Human.cpp">
+			<Option target="CProject"/>
+		</Unit>
+		<Unit filename="C:/Users/fox/CLionProjects/CProject/Human.h">
+			<Option target="CProject"/>
+		</Unit>
+		<Unit filename="C:/Users/fox/CLionProjects/CProject/Student.cpp">
+			<Option target="CProject"/>
+		</Unit>
+		<Unit filename="C:/Users/fox/CLionProjects/CProject/Student.h">
+			<Option target="CProject"/>
+		</Unit>
 		<Unit filename="C:/Users/fox/CLionProjects/CProject/main.c">
 			<Option target="CProject"/>
 		</Unit>
