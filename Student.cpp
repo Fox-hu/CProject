@@ -3,10 +3,18 @@
 //
 #include "Student.h"
 
-void Student::setAge(int age) {
-    this -> age = age;
+char *Student::getName() const {
+    return name;
 }
 
 void Student::setName(char *name) {
-    this -> name = name;
+    Student::name = name;
+}
+
+int Student::getAge() const {
+    return age;
+}
+
+void Student::setAge(int age) {
+    Student::age = age;
 }
