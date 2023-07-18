@@ -7,9 +7,18 @@
 
 class Student {
 private:
-    char *name;
-    int age;
+    char *name{};
+    int age{};
 public:
+
+    Student();
+
+    Student(char *name, int age);
+
+    Student(char *name);
+
+    ~Student();
+
     char* getName() const;
 
     void setName(char *name);
@@ -17,8 +26,6 @@ public:
     int getAge() const;
 
     void setAge(int age);
-
-public:
 
 };
 

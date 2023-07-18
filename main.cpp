@@ -3,6 +3,8 @@
 //
 
 #include <iostream>
+//#include "Student.h"
+#include "Student.cpp"
 
 void swap(int &a, int &b) {
     int temp = a;
@@ -21,6 +23,15 @@ int main() {
     int number1 = 10, number2 = 20;
     swap(number1, number2);
     std::cout << "number1 = " << number1 << " number2 = " << number2 << std::endl;
+
+    //malloc free new delete 都是开辟和释放内存 malloc/free配对 new和delete配对
+    //malloc free不会去调用构造函数和析构函数
+    Student *student = (Student*) malloc(sizeof (Student));
+    free(student);
+
+    Student *student1 = new Student("fox");
+    student1->setAge(32);
+    delete(student1);
 
     return 0;
 }
