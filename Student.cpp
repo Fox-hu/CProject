@@ -8,21 +8,21 @@ using namespace std;
 
 //构造函数
 Student::Student() {
-    cout << "空构造函数" << endl;
+    cout << "no param constructor invoke" << endl;
 }
 
 //构造函数之间的引用
 Student::Student(char *name):Student(name,0) {
-    cout << "一个参数的构造函数" << endl;
+    cout << "one param constructor invoke" << endl;
 }
 
 //有初始化列表的构造函数
 Student::Student(char *name, int age):name(name),age(age) {
-    cout << "两个参数的构造函数" << endl;
+    cout << "two params constructor invoke" << endl;
 }
 
 Student::~Student() {
-    cout << "析构函数调用" << endl;
+    cout << "destructor invoke" << endl;
 }
 
 char *Student::getName() const {
