@@ -33,5 +33,10 @@ int main() {
     student1->setAge(32);
     delete(student1);
 
+    //拷贝构造函数
+    Student stu1("fox",32);
+    Student stu2 = stu1; // = 是赋值 c++编译器此时会调用拷贝构造函数
+    std::cout << "name = " << stu2.getName() << " age = " << stu2.getAge() << std::endl;
+
     return 0;
 }

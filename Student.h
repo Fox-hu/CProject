@@ -17,6 +17,8 @@ public:
 
     Student(char *name);
 
+    Student(const Student& other);
+
     ~Student();
 
     char* getName() const;

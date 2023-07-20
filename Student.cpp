@@ -25,6 +25,12 @@ Student::~Student() {
     cout << "destructor invoke" << endl;
 }
 
+Student::Student(const Student& other) {
+    cout << "copy constructor invoke" << endl;
+    name = other.name;
+    age = other.age;
+}
+
 char *Student::getName() const {
     return name;
 }
@@ -40,3 +46,4 @@ int Student::getAge() const {
 void Student::setAge(int age) {
     Student::age = age;
 }
+
