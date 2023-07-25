@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\fox\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\cmake\win\x64\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\fox\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9225.21\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\fox\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\cmake\win\x64\bin\cmake.exe -E rm -f
+RM = C:\Users\fox\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9225.21\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,15 +72,15 @@ CMakeFiles/CProject.dir/main.c.obj: CMakeFiles/CProject.dir/flags.make
 CMakeFiles/CProject.dir/main.c.obj: C:/Users/fox/CLionProjects/CProject/main.c
 CMakeFiles/CProject.dir/main.c.obj: CMakeFiles/CProject.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\fox\CLionProjects\CProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CProject.dir/main.c.obj"
-	C:\Users\fox\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CProject.dir/main.c.obj -MF CMakeFiles\CProject.dir\main.c.obj.d -o CMakeFiles\CProject.dir\main.c.obj -c C:\Users\fox\CLionProjects\CProject\main.c
+	C:\Users\fox\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9225.21\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CProject.dir/main.c.obj -MF CMakeFiles\CProject.dir\main.c.obj.d -o CMakeFiles\CProject.dir\main.c.obj -c C:\Users\fox\CLionProjects\CProject\main.c
 
 CMakeFiles/CProject.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CProject.dir/main.c.i"
-	C:\Users\fox\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\fox\CLionProjects\CProject\main.c > CMakeFiles\CProject.dir\main.c.i
+	C:\Users\fox\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9225.21\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\fox\CLionProjects\CProject\main.c > CMakeFiles\CProject.dir\main.c.i
 
 CMakeFiles/CProject.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CProject.dir/main.c.s"
-	C:\Users\fox\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\fox\CLionProjects\CProject\main.c -o CMakeFiles\CProject.dir\main.c.s
+	C:\Users\fox\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9225.21\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\fox\CLionProjects\CProject\main.c -o CMakeFiles\CProject.dir\main.c.s
 
 # Object files for target CProject
 CProject_OBJECTS = \

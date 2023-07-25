@@ -29,7 +29,9 @@ int main() {
     Student *student = (Student*) malloc(sizeof (Student));
     free(student);
 
-    Student *student1 = new Student("fox");
+
+    char const * name = "fox";
+    Student *student1 = new Student(name,23);
     student1->setAge(32);
     delete(student1);
 

@@ -7,7 +7,21 @@
 
 
 class Human {
+private:
+    int age{};
+    char const *name{};
+public:
+    Human();
 
+    Human(int age, char const *name);
+
+    char const * getName() const;
+
+    void setName(char const *name);
+
+    int getAge() const;
+
+    void setAge(int age);
 };
 
 

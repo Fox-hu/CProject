@@ -5,25 +5,27 @@
 #ifndef CPROJECT_STUDENT_H
 #define CPROJECT_STUDENT_H
 
-class Student {
+#include "Human.h"
+
+class Student :public Human{
 private:
-    char *name{};
+    char const *name{};
     int age{};
 public:
 
     Student();
 
-    Student(char *name, int age);
+    Student(char const *name, int age);
 
-    Student(char *name);
+    Student(char const *name);
 
     Student(const Student& other);
 
     ~Student();
 
-    char* getName() const;
+    char const * getName() const;
 
-    void setName(char *name);
+    void setName(char const *name);
 
     int getAge() const;
 

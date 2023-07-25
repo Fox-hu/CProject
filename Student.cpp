@@ -2,22 +2,23 @@
 // Created by fox on 2023/7/16.
 //
 #include "Student.h"
+#include "Human.cpp"
 #include <iostream>
 
 using namespace std;
 
 //构造函数
-Student::Student() {
+Student::Student():Human() {
     cout << "no param constructor invoke" << endl;
 }
 
 //构造函数之间的引用
-Student::Student(char *name):Student(name,0) {
+Student::Student(char const *name):Student(name,0){
     cout << "one param constructor invoke" << endl;
 }
 
 //有初始化列表的构造函数
-Student::Student(char *name, int age):name(name),age(age) {
+Student::Student(char const *name, int age):name(name),age(age),Human(age,name) {
     cout << "two params constructor invoke" << endl;
 }
 
@@ -31,11 +32,11 @@ Student::Student(const Student& other) {
     age = other.age;
 }
 
-char *Student::getName() const {
+char const *Student::getName() const {
     return name;
 }
 
-void Student::setName(char *name) {
+void Student::setName(char const *name) {
     Student::name = name;
 }
 
