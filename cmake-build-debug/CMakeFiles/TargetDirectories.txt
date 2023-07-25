@@ -1,3 +1,0 @@
-C:/Users/fox/CLionProjects/CProject/cmake-build-debug/CMakeFiles/CProject.dir
-C:/Users/fox/CLionProjects/CProject/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/fox/CLionProjects/CProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
